@@ -82,3 +82,20 @@ h1 {
     text-transform: uppercase;
     font-size: 1.1rem;
 }
+
+.decoration-line {
+    width: 30px;
+    border-bottom: 5px solid rgb(216, 43, 101);
+}
+
+.about {
+    color: rgb(229, 229, 229);
+}
+
+.about h2 {
+    color: white;
+}
+
+.about div img {
+    width: 100%;
+}

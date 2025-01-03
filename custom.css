@@ -2,3 +2,7 @@
     font-family: 'Code';
     src: url('Source_Code_Pro/static/SourceCodePro-SemiBold.ttf') format('truetype');
 }
+
+body {
+    font-family: 'Code';
+}

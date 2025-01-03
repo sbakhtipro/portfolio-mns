@@ -11,3 +11,16 @@ nav {
     border-bottom: 1px solid rgb(28, 28, 28);
     background-color: black;
 }
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: rgb(172, 172, 172);
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: white;
+}

@@ -25,3 +25,52 @@ nav {
 .nav-link:hover {
     color: white;
 }
+
+.polygon {
+    clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+    background: rgb(163,21,77);
+    background: linear-gradient(90deg, rgb(142, 18, 68) 0%, rgb(223, 34, 72) 50%, rgb(244, 11, 120) 100%);
+    padding: 70px 130px 70px 70px;
+}
+
+.hero-right {
+    padding: 60px 0 60px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.title {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    color: white;
+    animation: text3D 2.5s infinite;
+}
+
+@keyframes text3D {
+    0% {
+        text-shadow: 2.5px 0 0 rgb(107, 255, 9), -2.5px 0 0 rgb(216, 43, 101);
+    }
+    25% {
+        text-shadow: -2.5px 0 0 rgb(107, 255, 9), 2.5px 0 0 rgb(216, 43, 101);
+    }
+    50% {
+        text-shadow: 2.5px 0 0 rgb(107, 255, 9), -2.5px 0 0 rgb(216, 43, 101);
+    }
+    75% {
+        text-shadow: -2.5px 0 0 rgb(107, 255, 9), 2.5px 0 0 rgb(216, 43, 101);
+    }
+    100% {
+        text-shadow: 2.5px 0 0 rgb(107, 255, 9), -2.5px 0 0 rgb(216, 43, 101);
+    }
+}
+
+.words {
+    color: rgb(216, 43, 101);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
